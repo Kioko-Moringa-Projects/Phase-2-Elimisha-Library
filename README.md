@@ -7,10 +7,15 @@ Calvin Kioko
 Elimisha Library is a single page HTML management system that uses ReactJS to get information about the library, books available and borrowed and adding books to the library.
 
 ## Project Setup Instructions
-The following web application is already configured with a public API and is available for use through the following GitHub pages link below. One can also clone the repository for use and can configure according to one's preference.
+The following web application is configured with a RESTful API which is hosted in Heroku and is available for use through the following GitHub pages link below. One can also clone the repository for use and can configure according to one's preference.
+The link to the repositoryof the REST API is https://github.com/kioko91/Json-Deploy
+
+To configure the repository in your local machine add
+1. npm install
+2. npm start
 
 ## GitHub Pages link
-
+https://kioko91.github.io/Phase-2-Elimisha-Library/home
 
 ## Copyright and License information
  MIT License
