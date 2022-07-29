@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import React, { useState } from 'react';
 
-const bookAPI = " http://localhost:3000/books";
+const bookAPI = " https://still-sea-44223.herokuapp.com/books";
 
 function Book({book, removeBook, addToBorrowed}) {
   const {title, isbn, pageCount, publishedDate, thumbnailUrl, shortDescription, longDescription, status, authors, categories} = book;
